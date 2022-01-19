@@ -13,7 +13,6 @@ exports.guests = async (req, res) => {
     let totalPax = 0;
     if (guest.length > 0) {
       guest.map((person) => {
-        // console.log(person.name);
         totalPax += Number(person.pax);
       });
     }
