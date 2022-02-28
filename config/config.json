@@ -14,10 +14,18 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "uljlijueqzzyjq",
+    "password": "551d170edbd4711cbbf7c5492ea6208b2fbe14d8bf40737548a833e9b663517f",
+    "database": "d4vrq3skmlcgom",
+    "host": "ec2-54-209-221-231.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "operatorsAliases": 0,
+    "use_env_variable": "DATABASE_URL",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
